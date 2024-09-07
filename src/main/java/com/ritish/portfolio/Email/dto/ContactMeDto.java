@@ -12,4 +12,13 @@ public class ContactMeDto {
     private String name;
     private String email;
     private String message;
+
+    @Override
+    public String toString() {
+        return "ContactMeDto{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", message='" + message + '\'' +
+                '}';
+    }
 }

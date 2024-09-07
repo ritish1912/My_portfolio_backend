@@ -18,9 +18,9 @@ public class ContactMeController {
   @PostMapping("sendMail")
   GenericResponse sendMail(@RequestBody ContactMeDto contactMeDto)
   {
-    System.out.println("Entry");
-     return contactMeService.sendMail(contactMeDto);
-
+    System.out.println(contactMeDto);
+     contactMeService.sendMail(contactMeDto);
+     return GenericResponse.builder().response_code(1).message("Thanks for reaching out! I’ll get back to you soon.").build();
   }
 
 }
