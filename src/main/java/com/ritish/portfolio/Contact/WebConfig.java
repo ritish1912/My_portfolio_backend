@@ -1,4 +1,4 @@
-package com.ritish.portfolio.Email;
+package com.ritish.portfolio.Contact;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

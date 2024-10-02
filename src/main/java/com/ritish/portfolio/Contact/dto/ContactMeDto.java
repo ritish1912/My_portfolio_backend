@@ -1,4 +1,4 @@
-package com.ritish.portfolio.Email.dto;
+package com.ritish.portfolio.Contact.dto;
 
 import lombok.*;
 

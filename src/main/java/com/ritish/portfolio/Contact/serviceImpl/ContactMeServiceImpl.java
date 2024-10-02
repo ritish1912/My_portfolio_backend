@@ -1,7 +1,7 @@
-package com.ritish.portfolio.Email.serviceImpl;
+package com.ritish.portfolio.Contact.serviceImpl;
 
-import com.ritish.portfolio.Email.dto.ContactMeDto;
-import com.ritish.portfolio.Email.services.ContactMeService;
+import com.ritish.portfolio.Contact.dto.ContactMeDto;
+import com.ritish.portfolio.Contact.services.ContactMeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
